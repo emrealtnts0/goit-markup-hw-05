@@ -364,6 +364,7 @@
             </div>
         </section>
     </main>
+  <!-- footer here -->
     <footer class="footer">
         <div class="container">
             <div class="footcontainer">
@@ -417,6 +418,65 @@
                 </ul>
             </div>
         </div>
+      <div class="form-container">
+        <p class="form-text">Subscribe</p>
+        <form class="form-input">
+              <label class="label-form" for="email">
+              <input class="label-input-" type="email" name="email" id="email" placeholder="E-mail"
+                     </label>
+                <button class="form-submit-button" type="submit">Subscribe <svg class="svg-button" width="24" height="24"><use href="./images/icon-send.svg#icon-send"></use></svg>
+                </button>
+                </form>
+          </div>
     </footer>
+      <!---- modal /  condition part ---->
+<div class="modal">
+<div class="modal-window">
+     <button class="modal-button" type="button">
+       <svg class="svg-modal-button" width="8"
+  height="8"><use href="./images/icon-close.svg#icon-exit"></use></svg>
+     
+        </button>        
+  <p class="modal-text">Leave your contacts and we will call you back! </p>
+  <form class="modal-form">
+        <div class="modal-container">
+             <label class="modal-label" for="user-name">Name</label>
+          <div class="modal-wrapper">
+            <input class="modal-input" name="user-name" id="user-name" type="text">
+             <svg class="modal-icon" width="18" height="24"><use href="./images/icons-modal.svg#icon-person"></use></svg>
+              </div>
+            </div>
+     <div class="modal-container">
+            <label class="modal-label" for="phone">Phone</label>
+              <div class="modal-wrapper">
+                <input class="modal-input" name="phone" id="phone" type="text">
+                <svg class="modal-icon" width="18" height="24"><use href="./images/icons-modal.svg#icon-phone"></use></svg>
+              </div>
+       </div>
+      <div class="modal-container">
+              <label class="modal-label" for="second-email">Email</label>
+              <div class="modal-wrapper">
+                <input class="modal-input" name="second-email" id="second-email" type="text">
+                <svg class="modal-icon" width="18" height="24"><use href="./images/icons-modal.svg#icon-email"></use></svg>
+                              </div>
+            </div>
+      <div class="modal-container textarea">
+              <label class="modal-label" for="user-comment">Comment</label>
+                <textarea class="modal-input comment" placeholder="Text input" name="user-comment" id="user-comment"></textarea>
+            </div>
+            <div class="modal-checkbox">
+              <input class="visually-hidden modal-checkbox"  id="user-privacy" name="user-privacy" value="true" type="checkbox">
+              <label class="privacy-label" for="user-privacy">  
+              <span class="modal-span">
+                <svg class="modal-svg" width="10" height="8"><use href="./images/icons-modal.svg#icon-vector"></use></svg>
+              </span>
+              I accept the terms and conditions of the
+              <a class="modal-link" href="">Privacy Policy</a>
+            </label>
+                          </div>
+     <button class="form-submit-button form-end-button" type="submit">Send</button>
+          </form>
+      </div>
+    </div>
 </body>
 </html>
