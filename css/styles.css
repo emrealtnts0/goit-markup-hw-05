@@ -482,8 +482,7 @@ ul {
 .footer .social-container .social-list .list-item .social-link:focus {
   background-color: #31D0AA;
 }
-
-/* modal - label and container part */ 
+ 
 .form-text {
 margin-bottom: 16px;
 font-weight: 500;
@@ -699,6 +698,7 @@ color: #ffffff;
   padding: 8px 16px;
   resize: none;
 }
+
 
 .form-end-button{
   display: block;
