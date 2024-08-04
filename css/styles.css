@@ -495,8 +495,8 @@ color: #ffffff;
   display: flex;
   gap: 24px;
 }
-.label-form {
-   width: 264px;
+.label-input {
+  width: 264px;
   height: 40px;
   border: 1px solid #ffffff;
   background-color: transparent;
